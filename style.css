@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CE8147;
+    font-family: 'Tangerine', cursive;
+}
+
+button {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  
+
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-size: 64px;
+  }
+  
+  #quote {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  #quote #quote-text {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+
+  #generateBtn {
+    font-family: 'Tangerine', cursive;
+    font-size: 20px;
+    padding:5px 20px;
+    background-color: #561D25;
+    font-size: 24px;
+    color: #ECDD7B;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#favoritBtn {
+    background-color: #561D25;
+    color: #ECDD7B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    width: 35px;
+    font-size: 24px;
+    border-radius: 50%;
+
+}
+
+  #favoriteQuotes {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  #favoritBtn.favorite {
+    color: red;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+    font-size: 56px;
+  }
+  
+  li {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 36px;
+  }
